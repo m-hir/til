@@ -12,13 +12,13 @@ https://docs.unity3d.com/ja/current/ScriptReference/StateMachineBehaviour.html
 - LateUpdate()
 
 ## それ以降
--FixedUpdate()
--Update()
--OnStateExit()
--OnStateUpdate()
--OnStateMove()
--OnStateIK()
--LateUpdate()
+- FixedUpdate() 
+- Update() 
+- OnStateExit() 
+- OnStateUpdate() 
+- OnStateMove() 
+- OnStateIK() 
+- LateUpdate() 
 
 
 ## 各コールバックが呼ばれるタイミング
@@ -26,11 +26,11 @@ https://docs.unity3d.com/ja/current/ScriptReference/StateMachineBehaviour.html
 そのStateに移行した時一番最初に呼ばれる
 
 ### OnStateUpdate()
-OnStateEnter()の次のフレームから最後のExitを除いた毎フレーム呼ばれる
+OnStateEnter()の次のフレームから最後のExitを除いた毎フレーム呼ばれる  
 Stateがトランジションしてる時でも呼ばれる
 
 ### OnStateMove()
-Stateが切り替わるまで最初のフレームから最後のフレームまでずっと呼ばれる
+Stateが切り替わるまで最初のフレームから最後のフレームまでずっと呼ばれる  
 Stateがトランジションしてる時でも呼ばれる
 
 ### OnStateIK()
