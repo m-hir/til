@@ -1,6 +1,6 @@
 ## Rangeを引数で渡す関数呼び出しの際に「オブジェクトが必要です」エラーが出る
 
-```
+``` vba
 Sub Worksheet_Change(ByVal Target As Range)
     ' この位置でエラー発生
     Test(Target)
